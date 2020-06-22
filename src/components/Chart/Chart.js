@@ -10,8 +10,6 @@ const Chart = () => {
     fetchDailyData().then((res) => setDailyData(res.data));
   }, []);
 
-  console.log(daily);
-
   const lineChart = daily.length ? (
     <Line
       data={{
