@@ -8,3 +8,17 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
+.corona {
+  margin-top: 50px;
+  width: 370px;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .corona {
+    width: 100%;
+  }
+}
